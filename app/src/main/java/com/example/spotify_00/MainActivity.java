@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         coverImg = findViewById(R.id.ivCover);
         Glide.with(this).load("https://img.youtube.com/vi/qN4ooNx77u0/0.jpg").into(coverImg);
 
